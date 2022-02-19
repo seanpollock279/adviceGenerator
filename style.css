@@ -73,6 +73,10 @@ body {
     top: 29px;
 }
 
+.button:hover {
+    box-shadow: 0 0 11px hsl(150, 100%, 66%);
+}
+
 .square {
     margin-top: 17px;
 }
