@@ -6,6 +6,22 @@
     }
 
 }
+@media only screen and (max-with: 1440px) {
+    .adviceContainer {
+        width: 300px;
+    }
+
+    .adviceNum {
+        letter-spacing: 10px;
+    }
+
+    .adviceQuote {
+        width: 90%;
+    }
+
+}
+
+
 
 body {
     background-color: hsl(217, 19%, 24%);
@@ -14,8 +30,8 @@ body {
 .adviceContainer {
     background-color: hsl(217, 19%, 38%);
     border-radius: 10px;
-    width: 100%;
     margin: 200px auto;
+    width: 500px;
 }
 
 .adviceNum {
@@ -25,6 +41,7 @@ body {
     font-size: 12px;
     text-align: center;
     padding-top: 35px;
+    letter-spacing: 3px;
 }
 
 .adviceQuote {
@@ -34,17 +51,28 @@ body {
     font-size: 28px;
     margin: 0 auto;
     padding-bottom: 30px;
+    width: 90%;
 }
 
 .divider {
+    display: none;
     margin: 0 auto;
     padding-bottom: 30px;
     padding-left: 10%
 }
 
 .button {
-    border-radius: 25px;
+    display: block;
+    border-radius: 30px;
     background-color: hsl(150, 100%, 66%);
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative; 
+    top: 29px;
+}
+
+.square {
+    margin-top: 17px;
 }
