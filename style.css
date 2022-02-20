@@ -2,13 +2,13 @@
 
 @media only screen and (max-with: 375px) {
     .adviceContainer {
-        width: 350px;
+        width: 150px !important;
     }
 
 }
 @media only screen and (max-with: 1440px) {
     .adviceContainer {
-        width: 300px;
+        width: 500px;
     }
 
     .adviceNum {
